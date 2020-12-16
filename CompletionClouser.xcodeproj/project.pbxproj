@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8609B73F2578F75C00AFAD8A /* ProtocolDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8609B73E2578F75C00AFAD8A /* ProtocolDelegate.swift */; };
 		8629D5412577B260000AF1A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8629D5402577B260000AF1A5 /* AppDelegate.swift */; };
 		8629D5432577B260000AF1A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8629D5422577B260000AF1A5 /* SceneDelegate.swift */; };
 		8629D5452577B260000AF1A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8629D5442577B260000AF1A5 /* ViewController.swift */; };
 		8629D5482577B260000AF1A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8629D5462577B260000AF1A5 /* Main.storyboard */; };
 		8629D54A2577B261000AF1A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8629D5492577B261000AF1A5 /* Assets.xcassets */; };
 		8629D54D2577B261000AF1A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8629D54B2577B261000AF1A5 /* LaunchScreen.storyboard */; };
+		8629D5562577B39B000AF1A5 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8629D5552577B39B000AF1A5 /* PopUpViewController.swift */; };
+		8629D5592577B93B000AF1A5 /* popUpView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8629D5582577B93B000AF1A5 /* popUpView.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8609B73E2578F75C00AFAD8A /* ProtocolDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolDelegate.swift; sourceTree = "<group>"; };
 		8629D53D2577B260000AF1A5 /* CompletionClouser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompletionClouser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8629D5402577B260000AF1A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8629D5422577B260000AF1A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		8629D5492577B261000AF1A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8629D54C2577B261000AF1A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8629D54E2577B261000AF1A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8629D5552577B39B000AF1A5 /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
+		8629D5582577B93B000AF1A5 /* popUpView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = popUpView.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				8629D5422577B260000AF1A5 /* SceneDelegate.swift */,
 				8629D5442577B260000AF1A5 /* ViewController.swift */,
 				8629D5462577B260000AF1A5 /* Main.storyboard */,
+				8629D5582577B93B000AF1A5 /* popUpView.storyboard */,
+				8629D5552577B39B000AF1A5 /* PopUpViewController.swift */,
+				8609B73E2578F75C00AFAD8A /* ProtocolDelegate.swift */,
 				8629D5492577B261000AF1A5 /* Assets.xcassets */,
 				8629D54B2577B261000AF1A5 /* LaunchScreen.storyboard */,
 				8629D54E2577B261000AF1A5 /* Info.plist */,
@@ -126,6 +135,7 @@
 			files = (
 				8629D54D2577B261000AF1A5 /* LaunchScreen.storyboard in Resources */,
 				8629D54A2577B261000AF1A5 /* Assets.xcassets in Resources */,
+				8629D5592577B93B000AF1A5 /* popUpView.storyboard in Resources */,
 				8629D5482577B260000AF1A5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +150,8 @@
 				8629D5452577B260000AF1A5 /* ViewController.swift in Sources */,
 				8629D5412577B260000AF1A5 /* AppDelegate.swift in Sources */,
 				8629D5432577B260000AF1A5 /* SceneDelegate.swift in Sources */,
+				8609B73F2578F75C00AFAD8A /* ProtocolDelegate.swift in Sources */,
+				8629D5562577B39B000AF1A5 /* PopUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
